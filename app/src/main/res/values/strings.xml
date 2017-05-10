@@ -1,0 +1,17 @@
+<resources>
+    <string-array name="home">
+        <item>home_attention</item>
+        <item>home_bangumi</item>
+        <item>home_attention</item>
+        <item>home_attention</item>
+        <item>home_attention</item>
+        <item>home_attention</item>
+
+    </string-array>
+
+
+    <string name="app_name">bilibilidemo</string>
+
+
+
+</resources>

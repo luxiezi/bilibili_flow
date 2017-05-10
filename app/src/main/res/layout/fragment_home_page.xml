@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+   <android.support.design.widget.CoordinatorLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+       <android.support.design.widget.AppBarLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+
+           <android.support.v7.widget.Toolbar
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+
+           </android.support.v7.widget.Toolbar>
+
+           <include
+               android:id="@+id/container_bottom"
+               layout="@layout/home_bottom"
+               android:layout_alignParentTop="true"
+               android:layout_width="match_parent"
+               android:layout_height="80dp" />
+       </android.support.design.widget.AppBarLayout>
+
+
+       <bilibilidemo.lyq.com.lyq.widget.NoScrollViewPager
+           android:id="@+id/vp_container_home"
+           android:background="@android:color/darker_gray"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           app:layout_behavior="android.support.design.widget.AppBarLayout$ScrollingViewBehavior">
+
+       </bilibilidemo.lyq.com.lyq.widget.NoScrollViewPager>
+
+
+   </android.support.design.widget.CoordinatorLayout>
+
+</FrameLayout>
