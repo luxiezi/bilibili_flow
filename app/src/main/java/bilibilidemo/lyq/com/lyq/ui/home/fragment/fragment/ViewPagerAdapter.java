@@ -1,0 +1,34 @@
+package bilibilidemo.lyq.com.lyq.ui.home.fragment.fragment;
+
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentPagerAdapter;
+
+import java.util.List;
+
+/**
+ * Created by 漆可 on 2017/5/11.
+ */
+
+public class ViewPagerAdapter extends FragmentPagerAdapter
+{
+    private List<Fragment> fragments;
+
+    public ViewPagerAdapter(List<Fragment> fragments, FragmentManager childFragmentManager)
+    {
+        super(childFragmentManager);
+        this.fragments = fragments;
+    }
+
+    @Override
+    public Fragment getItem(int position)
+    {
+        return fragments.get(position);
+    }
+
+    @Override
+    public int getCount()
+    {
+        return fragments == null ? 0 : fragments.size();
+    }
+}
