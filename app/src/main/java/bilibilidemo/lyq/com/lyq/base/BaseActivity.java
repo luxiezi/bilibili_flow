@@ -2,7 +2,7 @@ package bilibilidemo.lyq.com.lyq.base;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.support.v4.app.FragmentActivity;
+import android.support.v7.app.AppCompatActivity;
 
 import butterknife.ButterKnife;
 import butterknife.Unbinder;
@@ -11,7 +11,7 @@ import butterknife.Unbinder;
  * Created by lu on 2017/4/26.
  */
 
-public abstract class BaseActivity extends FragmentActivity {
+public abstract class BaseActivity extends AppCompatActivity {
 
     Unbinder unbinder;
     @Override

@@ -46,7 +46,7 @@ public abstract class BaseFragment extends Fragment {
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
 
         super.onViewCreated(view, savedInstanceState);
-        unbinder= ButterKnife.bind(activity);
+        unbinder= ButterKnife.bind(this,view);
     }
     private FragmentActivity getSupportActivity() {
         return super.getActivity();

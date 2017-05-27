@@ -15,42 +15,48 @@
             android:layout_weight="1"
             android:button="@null"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:background="@mipmap/ic_launcher" />
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="直播" />
         <RadioButton
             android:id="@+id/bangumi_rb_fragment"
             android:layout_weight="1"
             android:button="@null"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@mipmap/ic_launcher"/>
+            android:gravity="center_horizontal"
+            android:text="推荐"/>
         <RadioButton
             android:id="@+id/discover_rb_fragment"
             android:layout_weight="1"
             android:button="@null"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@mipmap/ic_launcher"/>
+            android:gravity="center_horizontal"
+            android:text="番剧"/>
         <RadioButton
             android:id="@+id/live_rb_fragment"
             android:layout_weight="1"
             android:button="@null"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@mipmap/ic_launcher"/>
+            android:gravity="center_horizontal"
+            android:text="分区"/>
         <RadioButton
             android:id="@+id/recommended_rb_fragment"
             android:layout_weight="1"
             android:button="@null"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@mipmap/ic_launcher"/>
+            android:gravity="center_horizontal"
+            android:text="关注"/>
         <RadioButton
             android:id="@+id/region_rb_fragment"
             android:layout_weight="1"
             android:button="@null"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@mipmap/ic_launcher"/>
+            android:gravity="center_horizontal"
+            android:text="发现"/>
     </RadioGroup>
 </LinearLayout>
